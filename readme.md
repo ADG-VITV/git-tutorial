@@ -81,7 +81,7 @@
 
     You'll be asked your username and password for github on your terminal. But even if you type in the correct credentials, you'll probably be getting this error:
 
-    ![Alt text](image.png)
+    ![Alt text](doc-images/image.png)
 
   - Now there are many ways with which you can authenticate yourself:
     - GitHub CLI
@@ -93,15 +93,15 @@
 
   - To generate your Personal Access Token, go to GitHub > Settings
 
-    ![Alt text](image-1.png)
+    ![Alt text](doc-images/image-1.png)
 
   - Once you're in the Settings, scroll down to the bottom of the left sidebar and click on `Developer Settings`
 
-    ![Alt text](image-2.png)
+    ![Alt text](doc-images/image-2.png)
 
   - Now expand the drop down for Personal access tokens, and select `Tokens(classic)` > Generate new token (classic).
 
-    ![Alt text](image-3.png)
+    ![Alt text](doc-images/image-3.png)
 
   - Follow the steps on GitHub, then copy the key and save it somewhere safe.
 
@@ -113,7 +113,7 @@
 
   - Git will ask your username. After entering your GitHub username, when git will ask your password. But now instead of entering your GitHub password, paste the key we got above and hit Enter. You'll probably see an output like this:
 
-    ![Alt text](image-4.png)
+    ![Alt text](doc-images/image-4.png)
 
     If you get this output, congratulations! You've successfully pushed your code from your local repo to GitHub from the terminal! This is the way to do it, please don't upload your code directly on GitHub by uploading the code files!
 
