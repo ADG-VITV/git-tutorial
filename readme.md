@@ -25,9 +25,20 @@
 
     Again, try to use the same email that you gave on GitHub.
 
+- ### Fork this repository
+  ![Alt text](doc-images/image-5.png)
+  
+  - Head on to the remote repository on GitHub and click on the `Fork` button. This will fork this repository into your account, where you can make changes. You may see a screen like this:
+
+    ![Alt text](doc-images/image-6.png)
+
+  - After you've forked the repo, clone your fork of the repo to your local machine by copying the https link which you can get by clicking on the green `Code` button. Then proceed to the next step.
+
+    ![Alt text](doc-images/image-7.png)
+
 - ### Open `cmd` on Windows or `Terminal` on Mac and use the following commands:
 
-        git clone https://github.com/abhinav-lv/git-tutorial.git
+        git clone <the link which you copied from your fork>
 
   You'll see a folder named "git-tutorial". Go into this folder and open a terminal there. You've just cloned the repository into your local machine! Now before you make any changes, it's a good idea to make a different branch so that if you mess up any commits, your main branch won't be affected. Follow the steps below to create a new branch:
 
